@@ -6,12 +6,15 @@
 /*   By: ohortal- <ohortal-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/19 11:17:19 by ohortal-          #+#    #+#             */
-/*   Updated: 2023/05/29 12:36:03 by ohortal-         ###   ########.fr       */
+/*   Updated: 2023/06/29 13:04:35 by ohortal-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
-# define BUFFER_SIZE 42
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
 
 # include <unistd.h>
 # include <stdlib.h>
